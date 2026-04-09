@@ -125,6 +125,15 @@ ol {
   text-decoration: underline;
 }
 
+.search-form__label:has(.search-form__pseudo-checkbox):active {
+  text-decoration: none;
+}
+
+.search-form__label:has(.search-form__pseudo-checkbox):active 
+.search-form__pseudo-checkbox::after {
+  opacity: 1;
+}
+
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
 }
@@ -265,6 +274,7 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .content__card-link:hover {
