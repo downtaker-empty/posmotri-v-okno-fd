@@ -16,7 +16,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -66,7 +66,6 @@ ol {
 .content {
   display: flex;
   width: 1140px;
-  height: 544px;
   gap: 30px;
   align-items: flex-end;
 }
@@ -157,7 +156,8 @@ ol {
 }
 
 .button {
-  font-family: Fira Sans Condensed;
+  min-height: 34px;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   border: 1px solid #fff;
@@ -181,18 +181,16 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self: flex-end;
 }
 
 .more-button {
-  height: 34px;
   padding: 6px 0px;
 }
 
 .search-form__textfield {
   appearance: none;
-  font-family: Fira Sans Condensed, Courier, monospace;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -200,7 +198,7 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   background-color: inherit;
-  width: 225px;
+  min-width: 225px;
   cursor: pointer;
 }
 
@@ -250,7 +248,6 @@ ol {
   width: 400px;
   height: 300px;
   overflow: auto;
-  overflow-x: hidden;
   gap: 30px;
 
 }
@@ -315,7 +312,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed, Times, serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
