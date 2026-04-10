@@ -73,14 +73,13 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap:16px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
   cursor: pointer;
 }
 
@@ -224,7 +223,7 @@ ol {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 24px;
   justify-content: flex-end;
 }
 
