@@ -73,7 +73,7 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap:20px;
 }
 
 .result__video-container {
